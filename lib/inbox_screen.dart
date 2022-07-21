@@ -237,7 +237,7 @@ class InboxScreen extends StatelessWidget {
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
                 margin: const EdgeInsets.only(left: 5),
                 child: Card(
-                  margin: const EdgeInsets.only(left: 10),
+                  margin: const EdgeInsets.only(left: 5),
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
                     shadowColor: Colors.black,
                     elevation: 10,
