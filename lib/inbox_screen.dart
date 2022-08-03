@@ -38,11 +38,14 @@ class InboxScreen extends StatelessWidget {
                 border: Border.all(color: Colors.transparent),
                 color: Colors.purple,
               ),
-              child: const Image(
-                image: AssetImage(
-                  'images/profile2.jpg',
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(8),
+                child: const Image(
+                  image: AssetImage(
+                    'images/profile2.jpg',
+                  ),
+                  fit: BoxFit.cover,
                 ),
-                fit: BoxFit.cover,
               ),
             ),
           ),
